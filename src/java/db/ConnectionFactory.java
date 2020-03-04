@@ -12,9 +12,9 @@ public class ConnectionFactory {
 
     public static Connection getConnectionFactory() throws SQLException {
         try {
-            String user = "gus";
-            String pwd = "gus";
-            String url = "jdbc:derby://localhost:1527/gustabelado";
+            String user = "root";
+            String pwd = "root";
+            String url = "jdbc:derby://localhost:1527/bancodepao";
             Class.forName("org.apache.derby.jdbc.ClientDriver");
             return DriverManager.getConnection(url, user, pwd);
         } catch (ClassNotFoundException e) {
