@@ -1,0 +1,43 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.gustavolara.tsi.javaserverpao.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+/**
+ *
+ * @author gustavo
+ */
+@AllArgsConstructor
+@NoArgsConstructor
+public class Usuario {
+
+    @Getter
+    @Setter
+    private Long id;
+    @Getter
+    @Setter
+    private String nome;
+    @Getter
+    @Setter
+    private String email;
+    @Getter
+    @Setter
+    private String senha;
+    @Getter
+    @Setter
+    private String endereco;
+    @Getter
+    @Setter
+    private String telefone;
+    @Getter
+    @Setter
+    private Perfil perfil;
+    
+}

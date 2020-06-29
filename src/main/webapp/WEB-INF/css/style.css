@@ -1,0 +1,183 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/03/2020, 01:01:52
+    Author     : gustavo
+*/
+
+*{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #FFCDD3;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #FF93C9;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #FFCDD3;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    color: #FF93C9;
+}
+
+.navbar-toggler{
+    border: 2px solid #FFCDD3;
+    border-radius: 4px;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../..//assets/open-menu.svg);
+}
+
+.logo{
+    background-color: #FFCDD3;
+    padding-left: 1px;
+}
+
+.logo a img{
+    max-height: 180px;
+    float: left;
+}
+
+.navbar, #navbarNav, .navbar-nav, .nav-item{
+}
+
+.login{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.form-login{
+    float:right;
+    max-width: 250px;
+    background-color: #FFCDD3;
+}
+
+.usuario-logado{
+    float:right;
+    max-width: 280px;
+    background-color: #FFCDD3;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.usuario-logado h4, span, form, .pink{
+    background-color: #FFCDD3;
+}
+
+.usuario-logado h4,span{
+    color: white;
+}
+
+.cart{
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+
+.usuario-logado .btn img{
+    background-color: transparent!important;
+}
+
+.usuario-logado .btn img:hover{
+    background-color:transparent!important;
+}
+
+@media (max-width: 578px) { 
+    .form-login{
+        float:left;
+        padding-left: 18px;
+        min-width: 100%;
+        background-color: #FFCDD3;
+    }
+    .form-login .form-group{
+        margin-bottom: 5px;
+    }
+    .btn-primary{
+        margin-bottom: 5px;
+    }
+} 
+
+@media (max-width: 995px) { 
+    .col{
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 995px) { 
+    .col{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+.form-group{
+    background-color: #FFCDD3;
+}
+
+.form-login input{
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+}
+
+.input-login{
+    background-color: white;
+    border-radius: 5px;
+    border-bottom: 2px solid white;
+    outline: none;
+}
+
+.logo .row, .col-sm{
+    background-color: #FFCDD3;
+}
+
+.btn-primary{
+    background-color:#FF93C9;
+    border-color: #FF93C9;
+}
+
+.btn-primary:hover{
+    background-color:#ff47a3;
+    border-color: #ff47a3;
+}
+
+.quantidade{
+    max-width: 65px;
+}
+
+.pagina *{
+    background-color: white;
+}
+
+.pagina .btn-primary{
+    background-color:#FF93C9;
+    border-color: #FF93C9;
+}
+
+.pagina .btn-primary:hover{
+    background-color:#ff47a3;
+    border-color: #ff47a3;
+}
+
+.carrinho{
+    max-width: 90%;
+    min-width: 90%;
+}
